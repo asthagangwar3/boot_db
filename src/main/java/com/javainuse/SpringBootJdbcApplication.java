@@ -6,7 +6,9 @@ import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 
 import com.javainuse.model.Employee;
@@ -14,6 +16,7 @@ import com.javainuse.service.EmployeeService;
 import com.javainuse.service.impl.EmployeeServiceImpl;
 
 @SpringBootApplication
+@EnableAutoConfiguration
 public class SpringBootJdbcApplication {
 	
 	
