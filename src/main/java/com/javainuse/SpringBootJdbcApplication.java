@@ -16,7 +16,7 @@ import com.javainuse.service.EmployeeService;
 import com.javainuse.service.impl.EmployeeServiceImpl;
 
 @SpringBootApplication
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@EnableAutoConfiguration
 public class SpringBootJdbcApplication {
 	
 	
